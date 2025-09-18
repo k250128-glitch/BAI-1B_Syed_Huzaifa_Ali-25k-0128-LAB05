@@ -10,7 +10,7 @@ int main(){
 	scanf(" %d",&device);
 	if (device==1){
 	
-		printf("Enter Sympton Code :");
+		printf("Enter Sympton Code (10 for Wont turn on, 11 for Overheating,12 for Slow performance) :");
 		scanf(" %d", &sympton_code);
 		switch (sympton_code){
 		
@@ -30,7 +30,7 @@ int main(){
 	}	}
 	else if (device==2){
 	
-		printf("Enter Sympton Code :\n");
+		printf("Enter Sympton Code .10 for Battery drains fast, 11 for No signal,12 for Touch screen unresponsive:\n");
 		scanf(" %d", &sympton_code);
 		switch (sympton_code){
 				
@@ -49,7 +49,7 @@ int main(){
 		}
 	}
 	else if (device==3){
-		printf("Enter Sympton Code :\n");
+		printf("Enter Sympton Code (10 for No internet Connection, 11 for Wifi signal weak,12 for Device cant connect):\n");
 		scanf(" %d", &sympton_code);
 		switch (sympton_code){			
 				case 30:
@@ -75,3 +75,4 @@ int main(){
 	
 	return 0;
 }
+
